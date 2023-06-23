@@ -1,0 +1,210 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 23 10:54:06 BRT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>1 seconds (1097 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='br.ce.wcaquino.servicos.CalculoValorLocacaoTest.deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%]()'><b>deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%]</b><br>Test class: br.ce.wcaquino.servicos.CalculoValorLocacaoTest</td>
+<td></td>
+<td>0</td>
+<td>deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%](br.ce.wcaquino.servicos.CalculoValorLocacaoTest)</td></tr>
+<tr>
+<td title='br.ce.wcaquino.servicos.CalculadoraTest.deveLancarExcecaoAoDividirPorZero()'><b>deveLancarExcecaoAoDividirPorZero</b><br>Test class: br.ce.wcaquino.servicos.CalculadoraTest</td>
+<td></td>
+<td>0</td>
+<td>deveLancarExcecaoAoDividirPorZero(br.ce.wcaquino.servicos.CalculadoraTest)</td></tr>
+<tr>
+<td title='br.ce.wcaquino.servicos.CalculadoraTest.deveDividirDoisValores()'><b>deveDividirDoisValores</b><br>Test class: br.ce.wcaquino.servicos.CalculadoraTest</td>
+<td></td>
+<td>0</td>
+<td>deveDividirDoisValores(br.ce.wcaquino.servicos.CalculadoraTest)</td></tr>
+<tr>
+<td title='br.ce.wcaquino.servicos.CalculadoraTest.deveDividir()'><b>deveDividir</b><br>Test class: br.ce.wcaquino.servicos.CalculadoraTest</td>
+<td></td>
+<td>0</td>
+<td>deveDividir(br.ce.wcaquino.servicos.CalculadoraTest)</td></tr>
+<tr>
+<td title='AssertTest.test()'><b>test</b><br>Test class: AssertTest</td>
+<td></td>
+<td>0</td>
+<td>test(AssertTest)</td></tr>
+<tr>
+<td title='br.ce.wcaquino.servicos.CalculoValorLocacaoTest.deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%]()'><b>deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%]</b><br>Test class: br.ce.wcaquino.servicos.CalculoValorLocacaoTest</td>
+<td></td>
+<td>0</td>
+<td>deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%](br.ce.wcaquino.servicos.CalculoValorLocacaoTest)</td></tr>
+<tr>
+<td title='br.ce.wcaquino.servicos.CalculoValorLocacaoTest.deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%]()'><b>deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%]</b><br>Test class: br.ce.wcaquino.servicos.CalculoValorLocacaoTest</td>
+<td></td>
+<td>0</td>
+<td>deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%](br.ce.wcaquino.servicos.CalculoValorLocacaoTest)</td></tr>
+<tr>
+<td title='br.ce.wcaquino.servicos.CalculoValorLocacaoTest.deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem Desconto]()'><b>deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem Desconto]</b><br>Test class: br.ce.wcaquino.servicos.CalculoValorLocacaoTest</td>
+<td></td>
+<td>0</td>
+<td>deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem Desconto](br.ce.wcaquino.servicos.CalculoValorLocacaoTest)</td></tr>
+<tr>
+<td title='OrdemTest.inicia()'><b>inicia</b><br>Test class: OrdemTest</td>
+<td></td>
+<td>0</td>
+<td>inicia(OrdemTest)</td></tr>
+<tr>
+<td title='br.ce.wcaquino.servicos.CalculadoraMockTest.testMock()'><b>testMock</b><br>Test class: br.ce.wcaquino.servicos.CalculadoraMockTest</td>
+<td></td>
+<td>0</td>
+<td>testMock(br.ce.wcaquino.servicos.CalculadoraMockTest)</td></tr>
+<tr>
+<td title='br.ce.wcaquino.servicos.CalculoValorLocacaoTest.deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%]()'><b>deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%]</b><br>Test class: br.ce.wcaquino.servicos.CalculoValorLocacaoTest</td>
+<td></td>
+<td>0</td>
+<td>deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%](br.ce.wcaquino.servicos.CalculoValorLocacaoTest)</td></tr>
+<tr>
+<td title='br.ce.wcaquino.servicos.LocacaoServiceTest.naoDeveAlugarFilmeParaNegativadoSPC()'><b>naoDeveAlugarFilmeParaNegativadoSPC</b><br>Test class: br.ce.wcaquino.servicos.LocacaoServiceTest</td>
+<td></td>
+<td>0</td>
+<td>naoDeveAlugarFilmeParaNegativadoSPC(br.ce.wcaquino.servicos.LocacaoServiceTest)</td></tr>
+<tr>
+<td title='br.ce.wcaquino.servicos.LocacaoServiceTest.deveAlugarFilme()'><b>deveAlugarFilme</b><br>Test class: br.ce.wcaquino.servicos.LocacaoServiceTest</td>
+<td></td>
+<td>0</td>
+<td>deveAlugarFilme(br.ce.wcaquino.servicos.LocacaoServiceTest)</td></tr>
+<tr>
+<td title='br.ce.wcaquino.servicos.CalculoValorLocacaoTest.deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem Desconto]()'><b>deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem Desconto]</b><br>Test class: br.ce.wcaquino.servicos.CalculoValorLocacaoTest</td>
+<td></td>
+<td>0</td>
+<td>deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem Desconto](br.ce.wcaquino.servicos.CalculoValorLocacaoTest)</td></tr>
+<tr>
+<td title='br.ce.wcaquino.servicos.LocacaoServiceTest.naoDeveAlugarFilmeSemUsuario()'><b>naoDeveAlugarFilmeSemUsuario</b><br>Test class: br.ce.wcaquino.servicos.LocacaoServiceTest</td>
+<td></td>
+<td>0</td>
+<td>naoDeveAlugarFilmeSemUsuario(br.ce.wcaquino.servicos.LocacaoServiceTest)</td></tr>
+<tr>
+<td title='br.ce.wcaquino.servicos.LocacaoServiceTest.deveCalcularValorLocacao()'><b>deveCalcularValorLocacao</b><br>Test class: br.ce.wcaquino.servicos.LocacaoServiceTest</td>
+<td></td>
+<td>0</td>
+<td>deveCalcularValorLocacao(br.ce.wcaquino.servicos.LocacaoServiceTest)</td></tr>
+<tr>
+<td title='br.ce.wcaquino.servicos.CalculadoraTest.deveSomarDoisValores()'><b>deveSomarDoisValores</b><br>Test class: br.ce.wcaquino.servicos.CalculadoraTest</td>
+<td></td>
+<td>0</td>
+<td>deveSomarDoisValores(br.ce.wcaquino.servicos.CalculadoraTest)</td></tr>
+<tr>
+<td title='br.ce.wcaquino.servicos.LocacaoServiceTest.naoDeveAlugarFilmeSemEstoque()'><b>naoDeveAlugarFilmeSemEstoque</b><br>Test class: br.ce.wcaquino.servicos.LocacaoServiceTest</td>
+<td></td>
+<td>0</td>
+<td>naoDeveAlugarFilmeSemEstoque(br.ce.wcaquino.servicos.LocacaoServiceTest)</td></tr>
+<tr>
+<td title='br.ce.wcaquino.servicos.CalculadoraMockTest.testShowDifferenceBetweenMockAndSpy()'><b>testShowDifferenceBetweenMockAndSpy</b><br>Test class: br.ce.wcaquino.servicos.CalculadoraMockTest</td>
+<td></td>
+<td>0</td>
+<td>testShowDifferenceBetweenMockAndSpy(br.ce.wcaquino.servicos.CalculadoraMockTest)</td></tr>
+<tr>
+<td title='br.ce.wcaquino.servicos.LocacaoServiceTest.deveTratarErronoSPC()'><b>deveTratarErronoSPC</b><br>Test class: br.ce.wcaquino.servicos.LocacaoServiceTest</td>
+<td></td>
+<td>0</td>
+<td>deveTratarErronoSPC(br.ce.wcaquino.servicos.LocacaoServiceTest)</td></tr>
+<tr>
+<td title='br.ce.wcaquino.servicos.LocacaoServiceTest.deveDevolverNaSegundaAoAlugarNoSabado()'><b>deveDevolverNaSegundaAoAlugarNoSabado</b><br>Test class: br.ce.wcaquino.servicos.LocacaoServiceTest</td>
+<td></td>
+<td>0</td>
+<td>deveDevolverNaSegundaAoAlugarNoSabado(br.ce.wcaquino.servicos.LocacaoServiceTest)</td></tr>
+<tr>
+<td title='OrdemTest.verifica()'><b>verifica</b><br>Test class: OrdemTest</td>
+<td></td>
+<td>0</td>
+<td>verifica(OrdemTest)</td></tr>
+<tr>
+<td title='br.ce.wcaquino.servicos.LocacaoServiceTest.naoDeveAlugarFilmeSemFilme()'><b>naoDeveAlugarFilmeSemFilme</b><br>Test class: br.ce.wcaquino.servicos.LocacaoServiceTest</td>
+<td></td>
+<td>0</td>
+<td>naoDeveAlugarFilmeSemFilme(br.ce.wcaquino.servicos.LocacaoServiceTest)</td></tr>
+<tr>
+<td title='br.ce.wcaquino.servicos.LocacaoServiceTest.deveProrrogarUmaLocacao()'><b>deveProrrogarUmaLocacao</b><br>Test class: br.ce.wcaquino.servicos.LocacaoServiceTest</td>
+<td></td>
+<td>0</td>
+<td>deveProrrogarUmaLocacao(br.ce.wcaquino.servicos.LocacaoServiceTest)</td></tr>
+<tr>
+<td title='br.ce.wcaquino.servicos.LocacaoServiceTest.deveEnviarEmailParaLocacoesAtrasadas()'><b>deveEnviarEmailParaLocacoesAtrasadas</b><br>Test class: br.ce.wcaquino.servicos.LocacaoServiceTest</td>
+<td></td>
+<td>0</td>
+<td>deveEnviarEmailParaLocacoesAtrasadas(br.ce.wcaquino.servicos.LocacaoServiceTest)</td></tr>
+<tr>
+<td title='br.ce.wcaquino.servicos.CalculadoraTest.deveSubtrairDoisValores()'><b>deveSubtrairDoisValores</b><br>Test class: br.ce.wcaquino.servicos.CalculadoraTest</td>
+<td></td>
+<td>0</td>
+<td>deveSubtrairDoisValores(br.ce.wcaquino.servicos.CalculadoraTest)</td></tr>
+</table><p>
+</body>
+</html>

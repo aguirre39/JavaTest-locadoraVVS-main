@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.439" tests="26" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\dev\JavaTest-locadora\target\test-classes;C:\dev\JavaTest-locadora\target\classes;C:\Users\aguir\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\aguir\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\aguir\.m2\repository\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;C:\Users\aguir\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\aguir\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.4\byte-buddy-agent-1.14.4.jar;C:\Users\aguir\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\aguir\.m2\repository\org\powermock\powermock-module-junit4\2.0.2\powermock-module-junit4-2.0.2.jar;C:\Users\aguir\.m2\repository\org\powermock\powermock-module-junit4-common\2.0.2\powermock-module-junit4-common-2.0.2.jar;C:\Users\aguir\.m2\repository\org\powermock\powermock-reflect\2.0.2\powermock-reflect-2.0.2.jar;C:\Users\aguir\.m2\repository\org\powermock\powermock-core\2.0.2\powermock-core-2.0.2.jar;C:\Users\aguir\.m2\repository\org\javassist\javassist\3.24.0-GA\javassist-3.24.0-GA.jar;C:\Users\aguir\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\aguir\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\aguir\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\aguir\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\aguir\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\aguir\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\aguir\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\aguir\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\aguir\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\aguir\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\aguir\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\aguir\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\aguir\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\zulu17.42.19-ca-jdk17.0.7-win_x64\bin"/>
+    <property name="sun.java.command" value="C:\Users\aguir\AppData\Local\Temp\surefire10207118024689949634\surefirebooter-20230623105405854_3.jar C:\Users\aguir\AppData\Local\Temp\surefire10207118024689949634 2023-06-23T10-54-05_729-jvmRun1 surefire-20230623105405854_1tmp surefire_0-20230623105405854_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\dev\JavaTest-locadora\target\test-classes;C:\dev\JavaTest-locadora\target\classes;C:\Users\aguir\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\aguir\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\aguir\.m2\repository\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;C:\Users\aguir\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\aguir\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.4\byte-buddy-agent-1.14.4.jar;C:\Users\aguir\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\aguir\.m2\repository\org\powermock\powermock-module-junit4\2.0.2\powermock-module-junit4-2.0.2.jar;C:\Users\aguir\.m2\repository\org\powermock\powermock-module-junit4-common\2.0.2\powermock-module-junit4-common-2.0.2.jar;C:\Users\aguir\.m2\repository\org\powermock\powermock-reflect\2.0.2\powermock-reflect-2.0.2.jar;C:\Users\aguir\.m2\repository\org\powermock\powermock-core\2.0.2\powermock-core-2.0.2.jar;C:\Users\aguir\.m2\repository\org\javassist\javassist\3.24.0-GA\javassist-3.24.0-GA.jar;C:\Users\aguir\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\aguir\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\aguir\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\aguir\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\aguir\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\aguir\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\aguir\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\aguir\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\aguir\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\aguir\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\aguir\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\aguir\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\aguir\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\aguir"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Program Files\Java\zulu17.42.19-ca-jdk17.0.7-win_x64"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\dev\JavaTest-locadora"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\aguir\AppData\Local\Temp\surefire10207118024689949634\surefirebooter-20230623105405854_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.7+7-LTS"/>
+    <property name="user.name" value="aguir"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu17.42+19-CA"/>
+    <property name="localRepository" value="C:\Users\aguir\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\aguir\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="user.dir" value="C:\dev\JavaTest-locadora"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\zulu17.42.19-ca-jdk17.0.7-win_x64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\zulu17.42.19-ca-jdk17.0.7-win_x64\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.2\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Users\aguir\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="17.0.7+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="test on test(AssertTest)" classname="AssertTest" time="0.005">
+    <system-out><![CDATA[Usage: <main class> [options] The XML suite files to run
+  Options:
+    -alwaysrunlisteners
+      Should MethodInvocation Listeners be run even for skipped methods
+      Default: true
+    -configfailurepolicy
+      Configuration failure policy (skip or continue)
+    -d
+      Output directory
+    -dataproviderthreadcount
+      Number of threads to use when running data providers
+    -dependencyinjectorfactory
+      The dependency injector factory implementation that TestNG should use.
+    -excludegroups
+      Comma-separated list of group names to  exclude
+    -failwheneverythingskipped
+      Should TestNG fail execution if all tests were skipped and nothing was 
+      run. 
+      Default: false
+    -groups
+      Comma-separated list of group names to be run
+    -includeAllDataDrivenTestsWhenSkipping
+      Should TestNG report all iterations of a data driven test as individual 
+      skips, in-case of upstream failures.
+      Default: false
+    -junit
+      JUnit mode
+      Default: false
+    -listener
+      List of .class files or list of class names implementing ITestListener 
+      or ISuiteListener
+    -methods
+      Comma separated of test methods
+      Default: []
+    -methodselectors
+      List of .class files or list of class names implementing IMethodSelector
+    -mixed
+      Mixed mode - autodetect the type of current test and run it with 
+      appropriate runner
+      Default: false
+    -objectfactory
+      List of .class files or list of class names implementing 
+      ITestRunnerFactory 
+    -overrideincludedmethods
+      Comma separated fully qualified class names of listeners that should be 
+      skipped from being wired in via Service Loaders.
+      Default: false
+    -parallel
+      Parallel mode (methods, tests or classes)
+      Possible Values: [tests, methods, classes, instances, none]
+    -port
+      The port
+    -propagateDataProviderFailureAsTestFailure
+      Should TestNG consider failures in Data Providers  as test failures.
+      Default: false
+    -reporter
+      Extended configuration for custom report listener
+    -spilistenerstoskip
+      Comma separated fully qualified class names of listeners that should be 
+      skipped from being wired in via Service Loaders.
+      Default: <empty string>
+    -suitename
+      Default name of test suite, if not specified in suite definition file or 
+      source code
+    -suitethreadpoolsize
+      Size of the thread pool to use to run suites
+      Default: 1
+    -testclass
+      The list of test classes
+    -testjar
+      A jar file containing the tests
+    -testname
+      Default name of test, if not specified in suitedefinition file or source 
+      code 
+    -testnames
+      The list of test names to run
+    -testrunfactory, -testRunFactory
+      The factory used to create tests
+    -threadcount
+      Number of threads to use when running tests in parallel
+    -threadpoolfactoryclass
+      The threadpool executor factory implementation that TestNG should use.
+    -usedefaultlisteners
+      Whether to use the default listeners
+      Default: true
+    -log, -verbose
+      Level of verbosity
+    -xmlpathinjar
+      The full path to the xml file inside the jar file (only valid if 
+      -testjar was specified)
+      Default: testng.xml
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testMock on testMock(br.ce.wcaquino.servicos.CalculadoraMockTest)" classname="br.ce.wcaquino.servicos.CalculadoraMockTest" time="0.809">
+    <system-out><![CDATA[[134345, -234]
+]]></system-out>
+  </testcase>
+  <testcase name="testShowDifferenceBetweenMockAndSpy on testShowDifferenceBetweenMockAndSpy(br.ce.wcaquino.servicos.CalculadoraMockTest)" classname="br.ce.wcaquino.servicos.CalculadoraMockTest" time="0.007">
+    <system-out><![CDATA[Mock: 5
+Spy: 5
+Mock
+Spy
+]]></system-out>
+  </testcase>
+  <testcase name="deveSomarDoisValores on deveSomarDoisValores(br.ce.wcaquino.servicos.CalculadoraTest)" classname="br.ce.wcaquino.servicos.CalculadoraTest" time="0.003">
+    <system-out><![CDATA[iniciando...
+Estou executando o método somar
+finalizando...
+]]></system-out>
+  </testcase>
+  <testcase name="deveDividir on deveDividir(br.ce.wcaquino.servicos.CalculadoraTest)" classname="br.ce.wcaquino.servicos.CalculadoraTest" time="0.001">
+    <system-out><![CDATA[iniciando...
+finalizando...
+]]></system-out>
+  </testcase>
+  <testcase name="deveLancarExcecaoAoDividirPorZero on deveLancarExcecaoAoDividirPorZero(br.ce.wcaquino.servicos.CalculadoraTest)" classname="br.ce.wcaquino.servicos.CalculadoraTest" time="0.002">
+    <system-out><![CDATA[iniciando...
+finalizando...
+]]></system-out>
+  </testcase>
+  <testcase name="deveSubtrairDoisValores on deveSubtrairDoisValores(br.ce.wcaquino.servicos.CalculadoraTest)" classname="br.ce.wcaquino.servicos.CalculadoraTest" time="0.001">
+    <system-out><![CDATA[iniciando...
+finalizando...
+]]></system-out>
+  </testcase>
+  <testcase name="deveDividirDoisValores on deveDividirDoisValores(br.ce.wcaquino.servicos.CalculadoraTest)" classname="br.ce.wcaquino.servicos.CalculadoraTest" time="0.001">
+    <system-out><![CDATA[iniciando...
+finalizando...
+]]></system-out>
+  </testcase>
+  <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem Desconto] on deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem Desconto](br.ce.wcaquino.servicos.CalculoValorLocacaoTest)" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.067">
+    <system-out><![CDATA[11111
+]]></system-out>
+  </testcase>
+  <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%] on deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%](br.ce.wcaquino.servicos.CalculoValorLocacaoTest)" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.003"/>
+  <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%] on deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%](br.ce.wcaquino.servicos.CalculoValorLocacaoTest)" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.002"/>
+  <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%] on deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%](br.ce.wcaquino.servicos.CalculoValorLocacaoTest)" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.004"/>
+  <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%] on deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%](br.ce.wcaquino.servicos.CalculoValorLocacaoTest)" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.002"/>
+  <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem Desconto] on deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem Desconto](br.ce.wcaquino.servicos.CalculoValorLocacaoTest)" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.002"/>
+  <testcase name="naoDeveAlugarFilmeSemFilme on naoDeveAlugarFilmeSemFilme(br.ce.wcaquino.servicos.LocacaoServiceTest)" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.03">
+    <system-out><![CDATA[finalizando 2...
+]]></system-out>
+  </testcase>
+  <testcase name="naoDeveAlugarFilmeSemEstoque on naoDeveAlugarFilmeSemEstoque(br.ce.wcaquino.servicos.LocacaoServiceTest)" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.004">
+    <system-out><![CDATA[finalizando 2...
+]]></system-out>
+  </testcase>
+  <testcase name="deveProrrogarUmaLocacao on deveProrrogarUmaLocacao(br.ce.wcaquino.servicos.LocacaoServiceTest)" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.025">
+    <system-out><![CDATA[finalizando 2...
+]]></system-out>
+  </testcase>
+  <testcase name="deveTratarErronoSPC on deveTratarErronoSPC(br.ce.wcaquino.servicos.LocacaoServiceTest)" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.005">
+    <system-out><![CDATA[finalizando 2...
+]]></system-out>
+  </testcase>
+  <testcase name="deveEnviarEmailParaLocacoesAtrasadas on deveEnviarEmailParaLocacoesAtrasadas(br.ce.wcaquino.servicos.LocacaoServiceTest)" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.011">
+    <system-out><![CDATA[finalizando 2...
+]]></system-out>
+  </testcase>
+  <testcase name="naoDeveAlugarFilmeParaNegativadoSPC on naoDeveAlugarFilmeParaNegativadoSPC(br.ce.wcaquino.servicos.LocacaoServiceTest)" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.004">
+    <system-out><![CDATA[finalizando 2...
+]]></system-out>
+  </testcase>
+  <testcase name="deveDevolverNaSegundaAoAlugarNoSabado on deveDevolverNaSegundaAoAlugarNoSabado(br.ce.wcaquino.servicos.LocacaoServiceTest)" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.008">
+    <system-out><![CDATA[finalizando 2...
+]]></system-out>
+  </testcase>
+  <testcase name="naoDeveAlugarFilmeSemUsuario on naoDeveAlugarFilmeSemUsuario(br.ce.wcaquino.servicos.LocacaoServiceTest)" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.005">
+    <system-out><![CDATA[finalizando 2...
+]]></system-out>
+  </testcase>
+  <testcase name="deveCalcularValorLocacao on deveCalcularValorLocacao(br.ce.wcaquino.servicos.LocacaoServiceTest)" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.003">
+    <system-out><![CDATA[finalizando 2...
+]]></system-out>
+  </testcase>
+  <testcase name="deveAlugarFilme on deveAlugarFilme(br.ce.wcaquino.servicos.LocacaoServiceTest)" classname="br.ce.wcaquino.servicos.LocacaoServiceTest" time="0.005">
+    <system-out><![CDATA[finalizando 2...
+]]></system-out>
+  </testcase>
+  <testcase name="inicia on inicia(OrdemTest)" classname="OrdemTest" time="0">
+    <system-out><![CDATA[11111
+]]></system-out>
+  </testcase>
+  <testcase name="verifica on verifica(OrdemTest)" classname="OrdemTest" time="0"/>
+</testsuite>

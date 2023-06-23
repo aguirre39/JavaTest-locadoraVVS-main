@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="26" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-23T10:54:06 BRT" name="Surefire suite" finished-at="2023-06-23T10:54:07 BRT" duration-ms="1097">
+    <groups>
+    </groups>
+    <test started-at="2023-06-23T10:54:06 BRT" name="Surefire test" finished-at="2023-06-23T10:54:07 BRT" duration-ms="1097">
+      <class name="br.ce.wcaquino.servicos.CalculadoraMockTest">
+        <test-method signature="testMock()" started-at="2023-06-23T10:54:06 BRT" name="testMock" finished-at="2023-06-23T10:54:07 BRT" duration-ms="809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMock -->
+        <test-method signature="testShowDifferenceBetweenMockAndSpy()" started-at="2023-06-23T10:54:06 BRT" name="testShowDifferenceBetweenMockAndSpy" finished-at="2023-06-23T10:54:07 BRT" duration-ms="816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShowDifferenceBetweenMockAndSpy -->
+      </class> <!-- br.ce.wcaquino.servicos.CalculadoraMockTest -->
+      <class name="br.ce.wcaquino.servicos.CalculadoraTest">
+        <test-method signature="deveLancarExcecaoAoDividirPorZero() throws br.ce.wcaquino.exceptions.NaoPodeDividirPorZeroException" started-at="2023-06-23T10:54:07 BRT" name="deveLancarExcecaoAoDividirPorZero" finished-at="2023-06-23T10:54:07 BRT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveLancarExcecaoAoDividirPorZero -->
+        <test-method signature="deveDividir()" started-at="2023-06-23T10:54:07 BRT" name="deveDividir" finished-at="2023-06-23T10:54:07 BRT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveDividir -->
+        <test-method signature="deveSomarDoisValores()" started-at="2023-06-23T10:54:07 BRT" name="deveSomarDoisValores" finished-at="2023-06-23T10:54:07 BRT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveSomarDoisValores -->
+        <test-method signature="deveDividirDoisValores() throws br.ce.wcaquino.exceptions.NaoPodeDividirPorZeroException" started-at="2023-06-23T10:54:07 BRT" name="deveDividirDoisValores" finished-at="2023-06-23T10:54:07 BRT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveDividirDoisValores -->
+        <test-method signature="deveSubtrairDoisValores()" started-at="2023-06-23T10:54:07 BRT" name="deveSubtrairDoisValores" finished-at="2023-06-23T10:54:07 BRT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveSubtrairDoisValores -->
+      </class> <!-- br.ce.wcaquino.servicos.CalculadoraTest -->
+      <class name="br.ce.wcaquino.servicos.CalculoValorLocacaoTest">
+        <test-method signature="deveCalcularValorLocacaoConsiderandoDescontos() throws br.ce.wcaquino.exceptions.FilmeSemEstoqueException,br.ce.wcaquino.exceptions.LocadoraException" started-at="2023-06-23T10:54:07 BRT" name="deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem Desconto]" finished-at="2023-06-23T10:54:07 BRT" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem Desconto] -->
+        <test-method signature="deveCalcularValorLocacaoConsiderandoDescontos() throws br.ce.wcaquino.exceptions.FilmeSemEstoqueException,br.ce.wcaquino.exceptions.LocadoraException" started-at="2023-06-23T10:54:07 BRT" name="deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%]" finished-at="2023-06-23T10:54:07 BRT" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%] -->
+        <test-method signature="deveCalcularValorLocacaoConsiderandoDescontos() throws br.ce.wcaquino.exceptions.FilmeSemEstoqueException,br.ce.wcaquino.exceptions.LocadoraException" started-at="2023-06-23T10:54:07 BRT" name="deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%]" finished-at="2023-06-23T10:54:07 BRT" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%] -->
+        <test-method signature="deveCalcularValorLocacaoConsiderandoDescontos() throws br.ce.wcaquino.exceptions.FilmeSemEstoqueException,br.ce.wcaquino.exceptions.LocadoraException" started-at="2023-06-23T10:54:07 BRT" name="deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%]" finished-at="2023-06-23T10:54:07 BRT" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%] -->
+        <test-method signature="deveCalcularValorLocacaoConsiderandoDescontos() throws br.ce.wcaquino.exceptions.FilmeSemEstoqueException,br.ce.wcaquino.exceptions.LocadoraException" started-at="2023-06-23T10:54:07 BRT" name="deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%]" finished-at="2023-06-23T10:54:07 BRT" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%] -->
+        <test-method signature="deveCalcularValorLocacaoConsiderandoDescontos() throws br.ce.wcaquino.exceptions.FilmeSemEstoqueException,br.ce.wcaquino.exceptions.LocadoraException" started-at="2023-06-23T10:54:07 BRT" name="deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem Desconto]" finished-at="2023-06-23T10:54:07 BRT" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem Desconto] -->
+      </class> <!-- br.ce.wcaquino.servicos.CalculoValorLocacaoTest -->
+      <class name="br.ce.wcaquino.servicos.LocacaoServiceTest">
+        <test-method signature="naoDeveAlugarFilmeSemEstoque() throws java.lang.Exception" started-at="2023-06-23T10:54:07 BRT" name="naoDeveAlugarFilmeSemEstoque" finished-at="2023-06-23T10:54:07 BRT" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naoDeveAlugarFilmeSemEstoque -->
+        <test-method signature="deveTratarErronoSPC() throws java.lang.Exception" started-at="2023-06-23T10:54:07 BRT" name="deveTratarErronoSPC" finished-at="2023-06-23T10:54:07 BRT" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveTratarErronoSPC -->
+        <test-method signature="naoDeveAlugarFilmeSemFilme() throws br.ce.wcaquino.exceptions.FilmeSemEstoqueException,br.ce.wcaquino.exceptions.LocadoraException" started-at="2023-06-23T10:54:07 BRT" name="naoDeveAlugarFilmeSemFilme" finished-at="2023-06-23T10:54:07 BRT" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naoDeveAlugarFilmeSemFilme -->
+        <test-method signature="deveProrrogarUmaLocacao()" started-at="2023-06-23T10:54:07 BRT" name="deveProrrogarUmaLocacao" finished-at="2023-06-23T10:54:07 BRT" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveProrrogarUmaLocacao -->
+        <test-method signature="deveEnviarEmailParaLocacoesAtrasadas()" started-at="2023-06-23T10:54:07 BRT" name="deveEnviarEmailParaLocacoesAtrasadas" finished-at="2023-06-23T10:54:07 BRT" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveEnviarEmailParaLocacoesAtrasadas -->
+        <test-method signature="naoDeveAlugarFilmeParaNegativadoSPC() throws java.lang.Exception" started-at="2023-06-23T10:54:07 BRT" name="naoDeveAlugarFilmeParaNegativadoSPC" finished-at="2023-06-23T10:54:07 BRT" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naoDeveAlugarFilmeParaNegativadoSPC -->
+        <test-method signature="deveAlugarFilme() throws java.lang.Exception" started-at="2023-06-23T10:54:07 BRT" name="deveAlugarFilme" finished-at="2023-06-23T10:54:07 BRT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveAlugarFilme -->
+        <test-method signature="naoDeveAlugarFilmeSemUsuario() throws br.ce.wcaquino.exceptions.FilmeSemEstoqueException" started-at="2023-06-23T10:54:07 BRT" name="naoDeveAlugarFilmeSemUsuario" finished-at="2023-06-23T10:54:07 BRT" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naoDeveAlugarFilmeSemUsuario -->
+        <test-method signature="deveCalcularValorLocacao() throws java.lang.Exception" started-at="2023-06-23T10:54:07 BRT" name="deveCalcularValorLocacao" finished-at="2023-06-23T10:54:07 BRT" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveCalcularValorLocacao -->
+        <test-method signature="deveDevolverNaSegundaAoAlugarNoSabado() throws java.lang.Exception" started-at="2023-06-23T10:54:07 BRT" name="deveDevolverNaSegundaAoAlugarNoSabado" finished-at="2023-06-23T10:54:07 BRT" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveDevolverNaSegundaAoAlugarNoSabado -->
+      </class> <!-- br.ce.wcaquino.servicos.LocacaoServiceTest -->
+      <class name="AssertTest">
+        <test-method signature="test()" started-at="2023-06-23T10:54:06 BRT" name="test" finished-at="2023-06-23T10:54:06 BRT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- AssertTest -->
+      <class name="OrdemTest">
+        <test-method signature="inicia()" started-at="2023-06-23T10:54:07 BRT" name="inicia" finished-at="2023-06-23T10:54:07 BRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicia -->
+        <test-method signature="verifica()" started-at="2023-06-23T10:54:07 BRT" name="verifica" finished-at="2023-06-23T10:54:07 BRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifica -->
+      </class> <!-- OrdemTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

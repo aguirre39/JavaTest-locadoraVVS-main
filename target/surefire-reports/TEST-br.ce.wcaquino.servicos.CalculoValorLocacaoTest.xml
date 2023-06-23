@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.073" tests="6" errors="6" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\dev\TestesUnitarios_Final_tudo_funcionando_ok\target\test-classes;C:\dev\TestesUnitarios_Final_tudo_funcionando_ok\target\classes;C:\Users\aguir\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\aguir\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\aguir\.m2\repository\org\mockito\mockito-all\2.0.2-beta\mockito-all-2.0.2-beta.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\aguir\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\aguir\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\aguir\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\aguir\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\aguir\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\aguir\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\aguir\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\aguir\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\aguir\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\aguir\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\aguir\.m2\repository\org\mockito\mockito-core\3.12.4\mockito-core-3.12.4.jar;C:\Users\aguir\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.13\byte-buddy-agent-1.11.13.jar;C:\Users\aguir\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\zulu17.42.19-ca-jdk17.0.7-win_x64\bin"/>
+    <property name="sun.java.command" value="C:\Users\aguir\AppData\Local\Temp\surefire6421194291566815496\surefirebooter-20230622102953689_3.jar C:\Users\aguir\AppData\Local\Temp\surefire6421194291566815496 2023-06-22T10-29-53_533-jvmRun1 surefire-20230622102953689_1tmp surefire_0-20230622102953689_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\dev\TestesUnitarios_Final_tudo_funcionando_ok\target\test-classes;C:\dev\TestesUnitarios_Final_tudo_funcionando_ok\target\classes;C:\Users\aguir\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\aguir\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\aguir\.m2\repository\org\mockito\mockito-all\2.0.2-beta\mockito-all-2.0.2-beta.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\aguir\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\aguir\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\aguir\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\aguir\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\aguir\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\aguir\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\aguir\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\aguir\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\aguir\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\aguir\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\aguir\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\aguir\.m2\repository\org\mockito\mockito-core\3.12.4\mockito-core-3.12.4.jar;C:\Users\aguir\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.13\byte-buddy-agent-1.11.13.jar;C:\Users\aguir\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\aguir"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Program Files\Java\zulu17.42.19-ca-jdk17.0.7-win_x64"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\dev\TestesUnitarios_Final_tudo_funcionando_ok"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\aguir\AppData\Local\Temp\surefire6421194291566815496\surefirebooter-20230622102953689_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.7+7-LTS"/>
+    <property name="user.name" value="aguir"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu17.42+19-CA"/>
+    <property name="localRepository" value="C:\Users\aguir\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\aguir\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="user.dir" value="C:\dev\TestesUnitarios_Final_tudo_funcionando_ok"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\zulu17.42.19-ca-jdk17.0.7-win_x64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\zulu17.42.19-ca-jdk17.0.7-win_x64\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.2\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Users\aguir\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="17.0.7+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.073">
+    <error message="Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3
+	at org.mockito.internal.creation.cglib.ClassImposterizer.createProxyClass(ClassImposterizer.java:95)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:57)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:49)
+	at org.mockito.internal.creation.cglib.CglibMockMaker.createMock(CglibMockMaker.java:24)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:33)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:59)
+	at org.mockito.Mockito.mock(Mockito.java:1284)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:33)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:16)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:43)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.process(DefaultAnnotationEngine.java:66)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.processIndependentAnnotations(InjectingAnnotationEngine.java:71)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.process(InjectingAnnotationEngine.java:55)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:108)
+	at br.ce.wcaquino.servicos.CalculoValorLocacaoTest.setup(CalculoValorLocacaoTest.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:345)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ExceptionInInitializerError [in thread "pool-3-thread-11"]
+	at org.mockito.cglib.core.KeyFactory$Generator.generateClass(KeyFactory.java:167)
+	at org.mockito.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at org.mockito.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:217)
+	at org.mockito.cglib.core.KeyFactory$Generator.create(KeyFactory.java:145)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:117)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:109)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:105)
+	at org.mockito.cglib.proxy.Enhancer.<clinit>(Enhancer.java:70)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.createProxyClass(ClassImposterizer.java:95)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:57)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:49)
+	at org.mockito.internal.creation.cglib.CglibMockMaker.createMock(CglibMockMaker.java:24)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:33)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:59)
+	at org.mockito.Mockito.mock(Mockito.java:1284)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:33)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:16)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:43)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.process(DefaultAnnotationEngine.java:66)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.processIndependentAnnotations(InjectingAnnotationEngine.java:71)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.process(InjectingAnnotationEngine.java:55)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:108)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.Verifier$1.evaluate(Verifier.java:35)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:258)
+	... 12 more
+]]></error>
+    <system-out><![CDATA[finalizando 3...
+]]></system-out>
+  </testcase>
+  <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem Desconto]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.072">
+    <error message="Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3
+	at org.mockito.internal.creation.cglib.ClassImposterizer.createProxyClass(ClassImposterizer.java:95)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:57)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:49)
+	at org.mockito.internal.creation.cglib.CglibMockMaker.createMock(CglibMockMaker.java:24)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:33)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:59)
+	at org.mockito.Mockito.mock(Mockito.java:1284)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:33)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:16)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:43)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.process(DefaultAnnotationEngine.java:66)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.processIndependentAnnotations(InjectingAnnotationEngine.java:71)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.process(InjectingAnnotationEngine.java:55)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:108)
+	at br.ce.wcaquino.servicos.CalculoValorLocacaoTest.setup(CalculoValorLocacaoTest.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:345)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ExceptionInInitializerError [in thread "pool-3-thread-11"]
+	at org.mockito.cglib.core.KeyFactory$Generator.generateClass(KeyFactory.java:167)
+	at org.mockito.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at org.mockito.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:217)
+	at org.mockito.cglib.core.KeyFactory$Generator.create(KeyFactory.java:145)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:117)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:109)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:105)
+	at org.mockito.cglib.proxy.Enhancer.<clinit>(Enhancer.java:70)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.createProxyClass(ClassImposterizer.java:95)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:57)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:49)
+	at org.mockito.internal.creation.cglib.CglibMockMaker.createMock(CglibMockMaker.java:24)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:33)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:59)
+	at org.mockito.Mockito.mock(Mockito.java:1284)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:33)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:16)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:43)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.process(DefaultAnnotationEngine.java:66)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.processIndependentAnnotations(InjectingAnnotationEngine.java:71)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.process(InjectingAnnotationEngine.java:55)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:108)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.Verifier$1.evaluate(Verifier.java:35)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:258)
+	... 12 more
+]]></error>
+    <system-out><![CDATA[finalizando 3...
+]]></system-out>
+  </testcase>
+  <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.072">
+    <error message="Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3
+	at org.mockito.internal.creation.cglib.ClassImposterizer.createProxyClass(ClassImposterizer.java:95)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:57)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:49)
+	at org.mockito.internal.creation.cglib.CglibMockMaker.createMock(CglibMockMaker.java:24)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:33)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:59)
+	at org.mockito.Mockito.mock(Mockito.java:1284)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:33)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:16)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:43)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.process(DefaultAnnotationEngine.java:66)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.processIndependentAnnotations(InjectingAnnotationEngine.java:71)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.process(InjectingAnnotationEngine.java:55)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:108)
+	at br.ce.wcaquino.servicos.CalculoValorLocacaoTest.setup(CalculoValorLocacaoTest.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:345)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ExceptionInInitializerError [in thread "pool-3-thread-11"]
+	at org.mockito.cglib.core.KeyFactory$Generator.generateClass(KeyFactory.java:167)
+	at org.mockito.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at org.mockito.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:217)
+	at org.mockito.cglib.core.KeyFactory$Generator.create(KeyFactory.java:145)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:117)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:109)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:105)
+	at org.mockito.cglib.proxy.Enhancer.<clinit>(Enhancer.java:70)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.createProxyClass(ClassImposterizer.java:95)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:57)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:49)
+	at org.mockito.internal.creation.cglib.CglibMockMaker.createMock(CglibMockMaker.java:24)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:33)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:59)
+	at org.mockito.Mockito.mock(Mockito.java:1284)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:33)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:16)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:43)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.process(DefaultAnnotationEngine.java:66)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.processIndependentAnnotations(InjectingAnnotationEngine.java:71)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.process(InjectingAnnotationEngine.java:55)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:108)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.Verifier$1.evaluate(Verifier.java:35)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:258)
+	... 12 more
+]]></error>
+    <system-out><![CDATA[finalizando 3...
+]]></system-out>
+  </testcase>
+  <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.07">
+    <error message="Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3
+	at org.mockito.internal.creation.cglib.ClassImposterizer.createProxyClass(ClassImposterizer.java:95)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:57)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:49)
+	at org.mockito.internal.creation.cglib.CglibMockMaker.createMock(CglibMockMaker.java:24)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:33)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:59)
+	at org.mockito.Mockito.mock(Mockito.java:1284)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:33)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:16)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:43)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.process(DefaultAnnotationEngine.java:66)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.processIndependentAnnotations(InjectingAnnotationEngine.java:71)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.process(InjectingAnnotationEngine.java:55)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:108)
+	at br.ce.wcaquino.servicos.CalculoValorLocacaoTest.setup(CalculoValorLocacaoTest.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:345)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ExceptionInInitializerError [in thread "pool-3-thread-11"]
+	at org.mockito.cglib.core.KeyFactory$Generator.generateClass(KeyFactory.java:167)
+	at org.mockito.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at org.mockito.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:217)
+	at org.mockito.cglib.core.KeyFactory$Generator.create(KeyFactory.java:145)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:117)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:109)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:105)
+	at org.mockito.cglib.proxy.Enhancer.<clinit>(Enhancer.java:70)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.createProxyClass(ClassImposterizer.java:95)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:57)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:49)
+	at org.mockito.internal.creation.cglib.CglibMockMaker.createMock(CglibMockMaker.java:24)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:33)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:59)
+	at org.mockito.Mockito.mock(Mockito.java:1284)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:33)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:16)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:43)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.process(DefaultAnnotationEngine.java:66)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.processIndependentAnnotations(InjectingAnnotationEngine.java:71)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.process(InjectingAnnotationEngine.java:55)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:108)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.Verifier$1.evaluate(Verifier.java:35)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:258)
+	... 12 more
+]]></error>
+    <system-out><![CDATA[finalizando 3...
+]]></system-out>
+  </testcase>
+  <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem Desconto]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.058">
+    <error message="Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3
+	at org.mockito.internal.creation.cglib.ClassImposterizer.createProxyClass(ClassImposterizer.java:95)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:57)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:49)
+	at org.mockito.internal.creation.cglib.CglibMockMaker.createMock(CglibMockMaker.java:24)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:33)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:59)
+	at org.mockito.Mockito.mock(Mockito.java:1284)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:33)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:16)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:43)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.process(DefaultAnnotationEngine.java:66)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.processIndependentAnnotations(InjectingAnnotationEngine.java:71)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.process(InjectingAnnotationEngine.java:55)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:108)
+	at br.ce.wcaquino.servicos.CalculoValorLocacaoTest.setup(CalculoValorLocacaoTest.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:345)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ExceptionInInitializerError [in thread "pool-3-thread-11"]
+	at org.mockito.cglib.core.KeyFactory$Generator.generateClass(KeyFactory.java:167)
+	at org.mockito.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at org.mockito.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:217)
+	at org.mockito.cglib.core.KeyFactory$Generator.create(KeyFactory.java:145)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:117)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:109)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:105)
+	at org.mockito.cglib.proxy.Enhancer.<clinit>(Enhancer.java:70)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.createProxyClass(ClassImposterizer.java:95)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:57)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:49)
+	at org.mockito.internal.creation.cglib.CglibMockMaker.createMock(CglibMockMaker.java:24)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:33)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:59)
+	at org.mockito.Mockito.mock(Mockito.java:1284)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:33)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:16)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:43)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.process(DefaultAnnotationEngine.java:66)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.processIndependentAnnotations(InjectingAnnotationEngine.java:71)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.process(InjectingAnnotationEngine.java:55)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:108)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.Verifier$1.evaluate(Verifier.java:35)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:258)
+	... 12 more
+]]></error>
+    <system-out><![CDATA[finalizando 3...
+]]></system-out>
+  </testcase>
+  <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%]" classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.059">
+    <error message="Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3
+	at org.mockito.internal.creation.cglib.ClassImposterizer.createProxyClass(ClassImposterizer.java:95)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:57)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:49)
+	at org.mockito.internal.creation.cglib.CglibMockMaker.createMock(CglibMockMaker.java:24)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:33)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:59)
+	at org.mockito.Mockito.mock(Mockito.java:1284)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:33)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:16)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:43)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.process(DefaultAnnotationEngine.java:66)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.processIndependentAnnotations(InjectingAnnotationEngine.java:71)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.process(InjectingAnnotationEngine.java:55)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:108)
+	at br.ce.wcaquino.servicos.CalculoValorLocacaoTest.setup(CalculoValorLocacaoTest.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:345)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ExceptionInInitializerError [in thread "pool-3-thread-11"]
+	at org.mockito.cglib.core.KeyFactory$Generator.generateClass(KeyFactory.java:167)
+	at org.mockito.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at org.mockito.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:217)
+	at org.mockito.cglib.core.KeyFactory$Generator.create(KeyFactory.java:145)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:117)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:109)
+	at org.mockito.cglib.core.KeyFactory.create(KeyFactory.java:105)
+	at org.mockito.cglib.proxy.Enhancer.<clinit>(Enhancer.java:70)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.createProxyClass(ClassImposterizer.java:95)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:57)
+	at org.mockito.internal.creation.cglib.ClassImposterizer.imposterise(ClassImposterizer.java:49)
+	at org.mockito.internal.creation.cglib.CglibMockMaker.createMock(CglibMockMaker.java:24)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:33)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:59)
+	at org.mockito.Mockito.mock(Mockito.java:1284)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:33)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:16)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:43)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.process(DefaultAnnotationEngine.java:66)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.processIndependentAnnotations(InjectingAnnotationEngine.java:71)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.process(InjectingAnnotationEngine.java:55)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:108)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.Verifier$1.evaluate(Verifier.java:35)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:258)
+	... 12 more
+]]></error>
+    <system-out><![CDATA[finalizando 3...
+]]></system-out>
+  </testcase>
+</testsuite>
